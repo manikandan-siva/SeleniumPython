@@ -14,10 +14,6 @@ class sitehomepage:
 
     # now methods via which these locators will be used
     def signinbutton(self):
-        # return self.localdriver.findelement(*sitehomepage.signin).click()
-        print("Navigating to account page")
         self.localdriver.find_element(*sitehomepage.Signin).click()
-
-        print("Reading login page")
         Createaccount = createaccountpage(self.localdriver)  # , localemail)
         return Createaccount

@@ -9,7 +9,8 @@ class personalinfo:
         self.localdriver = testdriver
 
     # locators
-    Title = (By.ID, "id_gender1")
+    Titlemr = (By.ID, "id_gender1")
+    Titlemrs = (By.ID, "id_gender2")
     Fname = (By.ID, "customer_firstname")
     Lname = (By.ID, "customer_lastname")
     Pwd = (By.XPATH, "//*[@id='passwd']")
@@ -21,8 +22,12 @@ class personalinfo:
     Mobile = (By.ID, "phone_mobile")
     Submt = (By.ID, "submitAccount")
 
-    def titleselect(self):
-        return self.localdriver.find_element(*personalinfo.Title)
+    # methods to return locators
+    def titleselectmr(self):
+        return self.localdriver.find_element(*personalinfo.Titlemr)
+
+    def titleselectmrs(self):
+        return self.localdriver.find_element(*personalinfo.Titlemrs)
 
     def setfname(self):
         return self.localdriver.find_element(*personalinfo.Fname)
@@ -52,7 +57,6 @@ class personalinfo:
         return self.localdriver.find_element(*personalinfo.Mobile)
 
     def register(self):
-        # return self.localdriver.find_element(*personalinfo.Submt)
         self.localdriver.find_element(*personalinfo.Submt).click()
         Usrhome = userhome(self.localdriver)
         return Usrhome

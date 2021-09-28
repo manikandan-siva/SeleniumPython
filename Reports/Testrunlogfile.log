@@ -1,0 +1,34 @@
+2021-09-28 18:36:54,468: INFO : test_accountcreationandvalidation: Webdriver initiated and URL opened
+2021-09-28 18:36:54,468: INFO : test_accountcreationandvalidation: Reading login page
+2021-09-28 18:36:54,468: INFO : test_accountcreationandvalidation: Ready to login
+2021-09-28 18:36:58,060: INFO : test_accountcreationandvalidation: Ready to give email details dsbzza@mail.com
+2021-09-28 18:36:58,187: INFO : test_accountcreationandvalidation: Email entered
+2021-09-28 18:36:58,187: INFO : test_accountcreationandvalidation: Registering Email and navigating to user details page
+2021-09-28 18:36:58,293: INFO : test_accountcreationandvalidation: Providing user details
+2021-09-28 18:37:22,201: INFO : test_accountcreationandvalidation: Webdriver initiated and URL opened
+2021-09-28 18:37:22,201: INFO : test_accountcreationandvalidation: Reading login page
+2021-09-28 18:37:22,201: INFO : test_accountcreationandvalidation: Ready to login
+2021-09-28 18:37:25,973: INFO : test_accountcreationandvalidation: Ready to give email details afsbs2za@mail.com
+2021-09-28 18:37:26,109: INFO : test_accountcreationandvalidation: Email entered
+2021-09-28 18:37:26,109: INFO : test_accountcreationandvalidation: Registering Email and navigating to user details page
+2021-09-28 18:37:26,171: INFO : test_accountcreationandvalidation: Providing user details
+2021-09-28 18:37:28,294: INFO : test_accountcreationandvalidation: selecting title Mrs
+2021-09-28 18:37:28,358: INFO : test_accountcreationandvalidation: Entering first name Lak
+2021-09-28 18:37:28,446: INFO : test_accountcreationandvalidation: Entering last name Raj
+2021-09-28 18:37:28,550: INFO : test_accountcreationandvalidation: Entering passwordqwerty
+2021-09-28 18:37:28,638: INFO : test_accountcreationandvalidation: Entering address asdfgh
+2021-09-28 18:37:28,742: INFO : test_accountcreationandvalidation: Entering city htfd
+2021-09-28 18:37:28,894: INFO : test_accountcreationandvalidation: Entering state Connecticut
+2021-09-28 18:37:28,998: INFO : test_accountcreationandvalidation: Entering postalcode 00000
+2021-09-28 18:37:29,078: INFO : test_accountcreationandvalidation: Entering additional info askjfhkjasf
+2021-09-28 18:37:29,174: INFO : test_accountcreationandvalidation: Entering mobile no 1234567890
+2021-09-28 18:37:29,262: INFO : test_accountcreationandvalidation: Submitting
+2021-09-28 18:37:32,930: INFO : test_accountcreationandvalidation: Valdiating user creation
+2021-09-28 18:37:33,025: INFO : test_accountcreationandvalidation: Lak Raj user creation successful
+2021-09-28 18:37:44,913: INFO : test_accountcreationandvalidation: Webdriver initiated and URL opened
+2021-09-28 18:37:44,913: INFO : test_accountcreationandvalidation: Reading login page
+2021-09-28 18:37:44,913: INFO : test_accountcreationandvalidation: Ready to login
+2021-09-28 18:37:48,486: INFO : test_accountcreationandvalidation: Ready to give email details bs2sza@mail.com
+2021-09-28 18:37:48,621: INFO : test_accountcreationandvalidation: Email entered
+2021-09-28 18:37:48,621: INFO : test_accountcreationandvalidation: Registering Email and navigating to user details page
+2021-09-28 18:37:48,683: INFO : test_accountcreationandvalidation: Providing user details

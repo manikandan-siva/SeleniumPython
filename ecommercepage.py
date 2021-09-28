@@ -4,12 +4,13 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome(executable_path="C:\\DEV\\chromedriver.exe")
 driver.get("http://automationpractice.com/index.php")
 # time.sleep(3)
 wait =WebDriverWait(driver,10)
-wait.until(EC.visibility_of_element_located(driver.find_element_by_class_name("login")))
+wait.until(EC.visibility_of_element_located((By.PARTIAL_LINK_TEXT, "Sign")))
 driver.find_element_by_partial_link_text("Sign").click()
 # time.sleep(3)
 driver.find_element_by_id("email_create").send_keys("ssssa@gmail.com")
