@@ -1,7 +1,7 @@
 # Selenium_Pytest_framework_ecommerce
 Selenium pytest framework to automate testing of e-commerce webpage operations
 
-My framework will read user details from excel and then create account for each user in an e-commerce webpage.
+My framework will read user details from excel and then create account for each user in an e-commerce webpage and then validate the account creation
 
 Steps Automated:
 1. Open  url  
