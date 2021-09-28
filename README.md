@@ -23,3 +23,6 @@ which will be redirected from first pageobjects operations like login button in 
 SS capture and integrate with the report code is added here. Added test cases file (make sure class and method name starts with test) and inherit base class from utility and 
 call page objects methods to execute desired actions in our webpage.
 5)Utilities - Baseclass file which will call conftest fixtures,then added select generic method to select values from any drop down, logging configuration and explicit wait config
+
+
+ecommerce.py - selenium python file to exercise the code before using it in framework
